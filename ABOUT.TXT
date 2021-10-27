@@ -1,0 +1,17 @@
+In this zip file there is the content of the Ardunio Uno PIC programmer (a-p-prog-master.zip v0.99) with just4fun's changes applied.
+
+
+The two changes to a-p-prog-master.zip are:
+
+1. The "pp3_devices.dat" file now has the right device Id for both the PIC18F47Q10 and PIC18F27Q10 (exchaged in the original file)
+
+2. The "pp.ino" sketch is modified two add a "Standby" state used by the MODE (SW1) switch of the "ICSP shield" (search for "J4F" inside the .ino file to find my changes).
+
+
+
+
+REFERENCES
+
+https://github.com/jaromir-sukuba/a-p-prog
+
+https://hackaday.io/project/8559
